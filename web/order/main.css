@@ -1,0 +1,242 @@
+body {
+  background-color: #F2F4F5;
+}
+
+.header {
+  width: 100%;
+  height: 1.146667rem;
+  font-size: 0.48rem;
+  color: #333;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 1.146667rem;
+  border-bottom: 0.026667rem solid rgba(221,221,221,.5);
+  background-color: #fff;
+  clear: both;
+}
+
+/*
+		header结束,container开始
+*/
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container .title {
+  display: block;
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 1.093333rem;
+  font-size: 0.32rem;
+  color: #999;
+  text-align: center;
+  line-height: 1.093333rem;
+  border-bottom: 0.026667rem solid rgba(221,221,221,.5);
+  background-color: #fff;
+}
+
+.container .title span:first-child {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1.146667rem;
+  height: 100%;
+  margin-left: -0.573333rem;
+  box-sizing: border-box;
+}
+
+/*激活状态*/
+
+.container .title.active {
+  font-size: 0.426667rem;
+  color: #FED852;
+  font-weight: 500;
+}
+
+/*激活状态加字体下划线*/
+
+.container .active span:first-child {
+  border-bottom: 0.08rem solid #FED852;
+}
+
+/*订单记录的样式=========*/
+
+.container .work-list {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container .work-list ul {
+  display: block;
+  width: 100%;
+}
+
+.container .work-list ul .work-detail {
+  display: block;
+  width: 100%;
+  height: 2.56rem;
+  border-bottom: 0.026667rem solid rgba(221,221,221,.5);
+}
+
+.container .work-list .work-detail .work-img {
+  float: left;
+  width: 2.213333rem;
+  height: 1.786667rem;
+  margin: 0.506667rem 0.346667rem 0 0.506667rem;
+}
+
+.container .work-list .work-detail:first-child .work-img {
+  background: url('img/order_img/img3.jpg') no-repeat center;
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
+}
+
+.container .work-list .work-detail:nth-child(2) .work-img {
+  background: url('img/order_img/img4.jpg') no-repeat center;
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
+}
+
+.container .work-list .work-detail .work-introduce {
+  float: left;
+  width: 3.066667rem;
+  height: 100%;
+}
+
+.container .work-list .work-detail .work-introduce p:first-child {
+  height: 0.586667rem;
+  margin: 0.506667rem 0 0.373333rem;
+  font-size: 0.426667rem;
+  color: #333;
+  line-height: 0.586667rem;
+}
+
+.container .work-list .work-detail .work-introduce p:last-child {
+  height: 0.533333rem;
+  font-size: 0.373333rem;
+  color: #B6041A;
+  line-height: 0.533333rem;
+}
+
+.container .work-list .work-detail .if-payment {
+  float: right;
+  width: 1.706667rem;
+  height: 0.533333rem;
+  margin-top: 1.066667rem;
+  margin-right: 0.373333rem;
+  font-size: 0.373333rem;
+  color: #FED852;
+  text-align: center;
+  line-height: 0.466667rem;
+  box-sizing: border-box;
+  border: 0.013333rem solid #FED852;
+  border-color: ;
+}
+
+.container .history-detail .work-list .work-detail .if-payment {
+  color: #999;
+  border-color: #999;
+}
+
+/*swiper的样式*/
+
+.container .swiper-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container .title .change {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+    ==========container结束，footer开始==========
+*/
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.306667rem;
+  border-top: 0.026667rem solid #DDDDDE;
+  background-color: #F2F4F5;
+}
+
+.footer ul {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.footer ul li {
+  display: block;
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+.footer ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.footer ul li .main-icon {
+  display: block;
+  width: 0.733333rem;
+  height: 0.733333rem;
+  margin: 0.2rem auto 0.04rem;
+  background-position: -4.933333rem -2.586667rem;
+}
+
+.footer ul li:nth-child(2) .main-icon {
+  background-position: -6.133333rem -2.586667rem;
+}
+
+.footer ul li:nth-child(3) .main-icon {
+  background-position: -7.293333rem -2.586667rem;
+}
+
+.footer ul li:last-child .main-icon {
+  width: 0.8rem;
+  background-position: -8.44rem -2.586667rem;
+}
+
+.footer ul li .text {
+  display: block;
+  width: 100%;
+  height: 0.373333rem;
+  font-size: 0.266667rem;
+  color: #333333;
+  text-align: center;
+  text-indent: -0.08rem;
+  line-height: 0.373333rem;
+}
+
+/*点击li切换icon=======*/
+
+.footer ul li:first-child.active .main-icon {
+  background-position: -0.266667rem -2.586667rem;
+}
+
+.footer ul li:nth-child(2).active .main-icon {
+  background-position: -1.453333rem -2.586667rem;
+}
+
+.footer ul li:nth-child(3).active .main-icon {
+  background-position: -2.573333rem -2.586667rem;
+}
+
+.footer ul li:last-child.active .main-icon {
+  background-position: -3.733333rem -2.586667rem;
+}

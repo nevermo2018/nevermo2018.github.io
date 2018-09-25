@@ -1,0 +1,274 @@
+body {
+  background-color: #F2F4F5;
+}
+
+.bf-icon {
+  background-image: url('img/icons/icon2x.png');
+  background-repeat: no-repeat;
+  background-size: 11.733333rem 36.72rem;
+}
+
+/*手机上的状态栏还有40；这里没有将背景覆盖上去*/
+
+.header {
+  width: 100%;
+  height: 5.066667rem;
+  background-color: purple;
+  overflow: hidden;
+}
+
+/*头像====*/
+
+.header .head-portrait {
+  width: 1.866667rem;
+  height: 1.866667rem;
+  margin: 0.986667rem auto 0.186667rem;
+  border-radius: 100%;
+  background-color: orange;
+}
+
+/*标识number=====*/
+
+.header .identifier {
+  width: 100%;
+  height: 0.666667rem;
+  font-size: 0.48rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.666667rem;
+}
+
+/*
+    header结束，container开始
+*/
+
+.container {
+  width: 100%;
+}
+
+.container .personal,
+.container .system {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  padding-left: 0.4rem;
+}
+
+.container .personal {
+  padding-top: 0.266667rem;
+}
+
+.container .common {
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-bottom: 0.013333rem solid #DDDDDE;
+}
+
+.container .common a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.container .common div {
+  float: left;
+}
+
+.container .common div:last-child {
+  float: right;
+}
+
+.container .personal .person-common {
+  width: 100%;
+  height: 1.173333rem;
+}
+
+.container .common:last-child {
+  border-bottom: 0;
+}
+
+/*====+++++=====公共的icon、文字、右箭头===+++----====*/
+
+.container .common .icon {
+  width: 0.64rem;
+  height: 0.64rem;
+  border-radius: 100%;
+  margin-top: 0.253333rem;
+}
+
+.container .common .icon .bf-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.container .common .text {
+  height: 0.533333rem;
+  margin-top: 0.306667rem;
+  margin-left: 0.24rem;
+  font-size: 0.373333rem;
+  color: #666666;
+  line-height: 0.533333rem;
+}
+
+.container .common .right {
+  width: 0.266667rem;
+  height: 0.266667rem;
+  margin-top: 0.446667rem;
+  margin-right: 0.853333rem;
+  background-position: -8.733333rem -5.306667rem;
+}
+
+/*icon背景色*/
+
+.container .balance .icon {
+  background-color: #EEAA9F;
+}
+
+.container .gift-card .icon {
+  background-color: #F5C0D5;
+}
+
+.container .invitation .icon {
+  background-color: #EEAEC8;
+}
+
+.container .coupon .icon {
+  background-color: #FED2A0;
+}
+
+.container .address .icon {
+  background-color: #F0CAA6;
+}
+
+.container .help .icon {
+  background-color: #C5E09A;
+}
+
+.container .set-up .icon {
+  background-color: #BEBAEF;
+}
+
+/*icon精灵图片位置*/
+
+.container .balance .icon .bf-icon {
+  background-position: -0.266667rem -12.16rem;
+}
+
+.container .gift-card .icon .bf-icon {
+  background-position: -1.426667rem -12.16rem;
+}
+
+.container .invitation .icon .bf-icon {
+  background-position: -2.613333rem -12.16rem;
+}
+
+.container .coupon .icon .bf-icon {
+  background-position: -3.786667rem -12.16rem;
+}
+
+.container .address .icon .bf-icon {
+  background-position: -4.973333rem -12.16rem;
+}
+
+.container .help .icon .bf-icon {
+  background-position: -6.133333rem -12.16rem;
+}
+
+.container .set-up .icon .bf-icon {
+  background-position: -7.306667rem -12.16rem;
+}
+
+/*personal结束，system开始======*/
+
+.container .system {
+  margin-top: 0.293333rem;
+}
+
+.container .system .system-common {
+  height: 1.186667rem;
+}
+
+/*
+    ==========container结束，footer开始==========
+*/
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.306667rem;
+  border-top: 0.026667rem solid #DDDDDE;
+  background-color: #F2F4F5;
+}
+
+.footer ul {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.footer ul li {
+  display: block;
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+.footer ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.footer ul li .main-icon {
+  display: block;
+  width: 0.733333rem;
+  height: 0.733333rem;
+  margin: 0.2rem auto 0.04rem;
+  background-position: -4.933333rem -2.586667rem;
+}
+
+.footer ul li:nth-child(2) .main-icon {
+  background-position: -6.133333rem -2.586667rem;
+}
+
+.footer ul li:nth-child(3) .main-icon {
+  background-position: -7.293333rem -2.586667rem;
+}
+
+.footer ul li:last-child .main-icon {
+  width: 0.8rem;
+  background-position: -8.44rem -2.586667rem;
+}
+
+.footer ul li .text {
+  display: block;
+  width: 100%;
+  height: 0.373333rem;
+  font-size: 0.266667rem;
+  color: #333333;
+  text-align: center;
+  text-indent: -0.08rem;
+  line-height: 0.373333rem;
+}
+
+/*点击li切换icon=======*/
+
+.footer ul li:first-child.active .main-icon {
+  background-position: -0.266667rem -2.586667rem;
+}
+
+.footer ul li:nth-child(2).active .main-icon {
+  background-position: -1.453333rem -2.586667rem;
+}
+
+.footer ul li:nth-child(3).active .main-icon {
+  background-position: -2.573333rem -2.586667rem;
+}
+
+.footer ul li:last-child.active .main-icon {
+  background-position: -3.733333rem -2.586667rem;
+}

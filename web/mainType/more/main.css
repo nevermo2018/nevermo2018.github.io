@@ -1,0 +1,97 @@
+.container .aside {
+  float: left;
+  width: 28%;
+  height: 100%;
+  background-color: #F2F4F5;
+}
+
+.container .aside>ul {
+  width: 100%;
+  height: 100%;
+  padding-top: 0.48rem;
+}
+
+.container .aside>ul>li {
+  position: relative;
+  width: 100%;
+  height: 1.786667rem;
+  text-align: center;
+  margin-bottom: 0.906667rem;
+}
+
+.container .aside>ul>li::after {
+  position: absolute;
+  left: 50%;
+  top: 1.866667rem;
+  content: '';
+  display: block;
+  width: 0.026667rem;
+  height: 0.64rem;
+  background-color: #DDDDDE;
+}
+
+.container .aside>ul>li .bf-icon {
+  display: block;
+  margin: 0 auto;
+  width: 1.173333rem;
+  height: 1.173333rem;
+  background-color: #C6C6C6;
+  border-radius: 50%;
+}
+
+.container .aside>ul>li.active .bf-icon {
+  background-color: #FED852;
+}
+
+.container .aside>ul>li>p {
+  font-size: 0.373333rem;
+  line-height: 0.533333rem;
+}
+
+.container .aside>ul>li .bf-icon.icon1 {
+  background-position: 0 0;
+}
+
+.container .aside>ul>li .bf-icon.icon2 {
+  background-position: -1.173333rem 0;
+}
+
+.container .aside>ul>li .bf-icon.icon3 {
+  background-position: -2.346667rem 0;
+}
+
+.container .aside>ul>li .bf-icon.icon4 {
+  background-position: -3.52rem 0;
+}
+
+.container .content {
+  float: left;
+  width: 72%;
+  height: 100%;
+  background-color: #fff;
+  padding-left: 0.32rem;
+  padding-top: 0.4rem;
+  box-sizing: border-box;
+}
+
+.container .content .content-top {
+  width: 100%;
+  height: 0.453333rem;
+  border-bottom: 0.026667rem solid #DDDDDE;
+}
+
+.content .type-block {
+  display: block;
+  float: left;
+  width: 44%;
+  height: 0.933333rem;
+  background-color: #F2F4F5;
+  border: 1 solid #DDDDDE;
+  border-radius: 0.066667rem;
+  font-size: 0.373333rem;
+  line-height: 0.933333rem;
+  color: #666;
+  text-align: center;
+  margin-right: 0.4rem;
+  margin-top: 0.346667rem;
+}

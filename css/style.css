@@ -1,0 +1,472 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /*position: relative;
+  overflow: auto;*/
+}
+
+body {
+  font-family: 'PingFangSC-Regular','微软雅黑';
+}
+
+bf-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+p {
+  font-size: 0.373333rem;
+  color: #999;
+  line-height: 0.533333rem;
+}
+
+.bf-hastop {
+  margin-top: 1.2rem;
+}
+
+.bf-text-sm {
+  font-size: 0.32rem;
+  line-height: 0.453333rem;
+  color: #333;
+}
+
+.bf-icon {
+  background-image: url('../img/icons/icon2x.png');
+  background-repeat: no-repeat;
+  background-size: 11.733333rem 36.72rem;
+}
+
+.bf-icon-share {
+  background-image: url('../img/icons/share2x.png');
+  background-repeat: no-repeat;
+  background-size: 2.346667rem 1.56rem;
+}
+
+.bf-text-light {
+  font-size: 0.32rem;
+  line-height: 0.453333rem;
+  color: #666;
+}
+
+.detail-banner {
+  position: relative;
+  width: 100%;
+  height: 5.6rem;
+  overflow: hidden;
+}
+
+.detail-banner>.banner {
+  width: 100%;
+  height: 100%;
+  background-color: #efefef;
+  background-position: center;
+}
+
+.detail-banner>.desc {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.96rem;
+  font-size: 0.48rem;
+  line-height: 0.96rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.detail-banner>.desc .title {
+  position: absolute;
+  left: 0.4rem;
+  top: 0;
+}
+
+.detail-banner>.desc .price {
+  position: absolute;
+  right: 0.4rem;
+  top: 0;
+}
+
+/*明细页面的公共标题 开始 以 服务范围==>.fwfw 区分*/
+
+.detail-title-block {
+  width: 100%;
+  height: 0.586667rem;
+  font-size: 0.426667rem;
+  color: #333;
+  text-align: center;
+}
+
+.detail-title-block .title-body {
+  width: 2.666667rem;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.detail-title-block .title-body .bf-icon {
+  display: block;
+  float: left;
+  width: 0.586667rem;
+  height: 0.586667rem;
+  background-position: -0.266667rem -11rem;
+}
+
+.detail-title-block .title-body .title {
+  float: left;
+  font-size: 0.426667rem;
+  line-height: 0.586667rem;
+  margin-left: 0.133333rem;
+  color: #333;
+}
+
+/*服务概述*/
+
+.detail-title-block.fwgs .bf-icon {
+  background-position: -0.266667rem -11rem;
+}
+
+/*服务范围*/
+
+.detail-title-block.fwfw .bf-icon {
+  background-position: -1.466667rem -11rem;
+}
+
+/*服务流程*/
+
+.detail-title-block.fwlc .bf-icon {
+  background-position: -6.186667rem -11rem;
+}
+
+/*服务标准*/
+
+.detail-title-block.fwbz .bf-icon {
+  background-position: -3.866667rem -11rem;
+}
+
+/*服务保障*/
+
+.detail-title-block.fwbz2 .bf-icon {
+  background-position: -2.666667rem -11rem;
+}
+
+/*明细页面 公共标题 头部结束*/
+
+/*服务保障公共部分块*/
+
+.detail-fwbz-block {
+  width: 100%;
+  overflow: hidden;
+}
+
+.detail-fwbz-block .fwbz-item {
+  display: block;
+  float: left;
+  width: 33%;
+  height: 2.666667rem;
+}
+
+.detail-fwbz-block .fwbz-item .bf-icon {
+  display: block;
+  width: 1.466667rem;
+  height: 1.466667rem;
+  margin: 0 auto;
+  background-position: 0 -3.52rem;
+}
+
+.detail-fwbz-block .fwbz-item .title {
+  font-size: 0.373333rem;
+  line-height: 0.533333rem;
+  color: #999;
+  text-align: center;
+  margin-top: 0.213333rem;
+}
+
+/*人员保障*/
+
+.detail-fwbz-block .fwbz-item.rybz .bf-icon {
+  background-position: 0 -3.52rem;
+}
+
+/*品质保障*/
+
+.detail-fwbz-block .fwbz-item.pzbz .bf-icon {
+  background-position: -1.6rem -3.52rem;
+}
+
+/*隐私保障*/
+
+.detail-fwbz-block .fwbz-item.ysbz .bf-icon {
+  background-position: -3.2rem -3.52rem;
+}
+
+/*健康保障*/
+
+.detail-fwbz-block .fwbz-item.jkbz .bf-icon {
+  background-position: -4.8rem -3.52rem;
+}
+
+/*安全保障*/
+
+.detail-fwbz-block .fwbz-item.aqbz .bf-icon {
+  background-position: -6.4rem -3.52rem;
+}
+
+/*售后保障*/
+
+.detail-fwbz-block .fwbz-item.shbz .bf-icon {
+  background-position: -8rem -3.52rem;
+}
+
+/*安全保障块结束*/
+
+/*底部预约*/
+
+.bottom-yuyue-block {
+  position: relative;
+  width: 100%;
+  height: 1.306667rem;
+}
+
+.bottom-yuyue-block .btn-yuyue {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 8.4rem;
+  height: 100%;
+  text-align: center;
+  font-size: 0.48rem;
+  line-height: 1.306667rem;
+  color: #fff;
+  background-image: linear-gradient(-90deg, #FFB38A 0%, #FED852 100%);
+  border-radius: 0.066667rem;
+}
+
+.bottom-yuyue-block .btn-kefu {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.44rem;
+  height: 100%;
+  background: #FFFFFF;
+  border: 0.013333rem solid #979797;
+  border-radius: 0.066667rem;
+}
+
+.bottom-yuyue-block .btn-kefu .bf-icon {
+  display: block;
+  width: 0.586667rem;
+  height: 0.586667rem;
+  margin: 0.066667rem auto;
+  background-position: -0.32rem -5.173333rem;
+}
+
+.bottom-yuyue-block .btn-kefu .title {
+  text-align: center;
+  font-size: 0.32rem;
+  line-height: 0.453333rem;
+  margin-top: 0.066667rem;
+}
+
+/*底部预约结束*/
+
+/*明细页面头部 用于返回和分享*/
+
+.detail-top {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1.2rem;
+  background-color: #fff;
+  text-align: center;
+  font-size: 0.426667rem;
+  line-height: 1.2rem;
+  color: #333;
+  z-index: 999;
+}
+
+.detail-top .goback,
+.detail-top .share {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.detail-top .goback .bf-icon,
+.detail-top .share .bf-icon {
+  position: absolute;
+  display: block;
+  width: 0.533333rem;
+  height: 0.533333rem;
+  left: 0.333333rem;
+  top: 0.333333rem;
+  background-position: -2.6rem -5.226667rem;
+  transform: rotate(90deg);
+}
+
+.detail-top .share {
+  right: 0;
+  left: auto;
+}
+
+.detail-top .share .bf-icon {
+  transform: rotate(0);
+  background-position: -9.733333rem -5.2rem;
+}
+
+.dot-item {
+  position: relative;
+  font-size: 0.32rem;
+  line-height: 0.453333rem;
+  color: #999;
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  text-indent: 1em;
+}
+
+.dot-item::before {
+  position: absolute;
+  left: 0;
+  top: 0.16rem;
+  content: '';
+  display: block;
+  width: 0.133333rem;
+  height: 0.133333rem;
+  border: 0.013333rem solid #CD262E;
+  /*border-radius: 5px;
+  -webkit-border-radius: 5px;*/
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.ang-item {
+  position: relative;
+  font-size: 0.373333rem;
+  line-height: 0.533333rem;
+  color: #666;
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+  text-indent: 1em;
+}
+
+.ang-item::before {
+  position: absolute;
+  left: 0;
+  top: 0.16rem;
+  content: '';
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  /*background-color: #D9575D;*/
+  background: url('../img/icons/icon2x.png') no-repeat center;
+  background-size: 11.733333rem 36.72rem;
+  background-position: -5.12rem -11.12rem;
+}
+
+.detail-desc-block {
+  width: 8.24rem;
+  border-radius: 0.133333rem;
+  border: 0.013333rem solid #999;
+  padding: 0.2rem 0.266667rem;
+  box-sizing: border-box;
+  font-size: 0.32rem;
+  color: #999;
+  line-height: 0.453333rem;
+  margin: 0 auto;
+  margin-top: 0.666667rem;
+}
+
+.img-desc-ang {
+  width: 100%;
+  text-align: center;
+}
+
+.img-desc-ang>.text {
+  position: relative;
+  display: inline-block;
+  text-indent: 2em;
+  font-size: 0.32rem;
+  line-height: 0.453333rem;
+}
+
+.img-desc-ang>.text::before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 0.4rem;
+  height: 0.4rem;
+  left: 0;
+  top: 0.026667rem;
+  background: url('../img/icons/icon2x.png') no-repeat center;
+  background-size: 11.733333rem 36.72rem;
+  background-position: -5.12rem -11.12rem;
+}
+
+.loading-mask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 900;
+  background-color: #fff;
+}
+
+.loading-mask.hide {
+  display: none;
+}
+
+.loading-mask .bf-icon {
+  position: relative;
+  width: 1.666667rem;
+  height: 1.666667rem;
+  margin: 5.333333rem auto;
+  background: url('../img/icons/loading.png') no-repeat left;
+  background-size: 5rem 1.2rem;
+  background-position: -0 -0;
+  animation: loading 2s steps(1, start) infinite;
+}
+
+.loading-mask .bf-icon::after {
+  position: absolute;
+  left: -50%;
+  bottom: -0.586667rem;
+  width: 200%;
+  height: 0.586667rem;
+  content: '正在加载...';
+  font-size: 0.426667rem;
+  line-height: 0.586667rem;
+  text-align: center;
+  color: #999;
+}
+
+@keyframes loading {
+  0% {
+    background-position: -0 -0;
+  }
+
+  33.33% {
+    background-position: -1.733333rem -0;
+  }
+
+  100% {
+    background-position: -3.466667rem -0;
+  }
+}

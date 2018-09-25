@@ -1,0 +1,219 @@
+/*=========遮罩层========*/
+
+.mask {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.40);
+}
+
+/*========服务=======*/
+
+.server {
+  position: fixed;
+  right: 0.4rem;
+  bottom: 1.226667rem;
+  width: 3.84rem;
+  height: 2.186667rem;
+  padding-left: 0.4rem;
+  border-radius: 0.213333rem;
+  background-color: #fff;
+}
+
+.server .line {
+  width: 3.066667rem;
+  height: 0.053333rem;
+  background-color: #DDDDDE;
+}
+
+.server a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*在线客服和电话咨询选择项*/
+
+.server .online,
+.server .phone {
+  position: relative;
+  width: 100%;
+  height: 1.066667rem;
+}
+
+.server .common {
+  display: block;
+  float: left;
+  width: 0.6rem;
+  height: 0.586667rem;
+  margin-top: 0.293333rem;
+  margin-left: 0.16rem;
+}
+
+.server .online .common {
+  background-position: -0.32rem -5.16rem;
+}
+
+.server .phone .common {
+  background-position: -1.48rem -5.16rem;
+}
+
+.server .text {
+  float: left;
+  width: 1.6rem;
+  height: 0.533333rem;
+  margin-top: 0.32rem;
+  margin-left: 0.4rem;
+  font-size: 0.373333rem;
+  color: #666;
+  line-height: 0.533333rem;
+}
+
+.server .triangle {
+  position: absolute;
+  right: 0.533333rem;
+  border-left: 0.16rem solid transparent;
+  border-right: 0.16rem solid transparent;
+  border-top: 0.293333rem solid #fff;
+}
+
+/*弹出的取消或拨打的窗口*/
+
+.landine-telephone {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 7.2rem;
+  height: 2.986667rem;
+  margin-top: -1.493333rem;
+  margin-left: -3.6rem;
+  background-color: #FCFCFC;
+  border-radius: 0.32rem;
+}
+
+.landine-telephone .number {
+  width: 100%;
+  height: 1.8rem;
+  font-size: 0.48rem;
+  color: #333;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+.landine-telephone .bottom {
+  width: 100%;
+  height: 1.173333rem;
+  box-sizing: border-box;
+  border-top: 0.013333rem solid rgba(77,77,77,.3);
+}
+
+.landine-telephone .bottom .cancel,
+.landine-telephone .bottom .call {
+  width: 50%;
+  height: 100%;
+  float: left;
+  font-size: 0.426667rem;
+  color: #0076FF;
+  text-align: center;
+  line-height: 1.173333rem;
+  box-sizing: border-box;
+}
+
+.landine-telephone .bottom a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.landine-telephone .bottom .cancel {
+  border-right: 0.006667rem solid rgba(77,77,77,.3);
+}
+
+.landine-telephone .bottom .call {
+  border-left: 0.006667rem solid rgba(77,77,77,.3);
+}
+
+/*
+    ==========container结束，footer开始==========
+*/
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.306667rem;
+  border-top: 0.026667rem solid #DDDDDE;
+  background-color: #F2F4F5;
+}
+
+.footer ul {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.footer ul li {
+  display: block;
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+.footer ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.footer ul li .main-icon {
+  display: block;
+  width: 0.733333rem;
+  height: 0.733333rem;
+  margin: 0.2rem auto 0.04rem;
+  background-position: -4.933333rem -2.586667rem;
+}
+
+.footer ul li:nth-child(2) .main-icon {
+  background-position: -6.133333rem -2.586667rem;
+}
+
+.footer ul li:nth-child(3) .main-icon {
+  background-position: -7.293333rem -2.586667rem;
+}
+
+.footer ul li:last-child .main-icon {
+  width: 0.8rem;
+  background-position: -8.44rem -2.586667rem;
+}
+
+.footer ul li .text {
+  display: block;
+  width: 100%;
+  height: 0.373333rem;
+  font-size: 0.266667rem;
+  color: #333333;
+  text-align: center;
+  text-indent: -0.08rem;
+  line-height: 0.373333rem;
+}
+
+/*点击li切换icon=======*/
+
+.footer ul li:first-child.active .main-icon {
+  background-position: -0.266667rem -2.586667rem;
+}
+
+.footer ul li:nth-child(2).active .main-icon {
+  background-position: -1.453333rem -2.586667rem;
+}
+
+.footer ul li:nth-child(3).active .main-icon {
+  background-position: -2.573333rem -2.586667rem;
+}
+
+.footer ul li:last-child.active .main-icon {
+  background-position: -3.733333rem -2.586667rem;
+}

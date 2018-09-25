@@ -1,0 +1,248 @@
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.mt-45 {
+  margin-top: 0.6rem;
+}
+
+.pt-45 {
+  padding-top: 0.6rem;
+}
+
+.bt {
+  border-bottom: 0.026667rem solid #DDDDDE;
+}
+
+.title2 {
+  text-align: center;
+  margin-top: 0.48rem;
+  font-size: 0.32rem;
+  color: #666666;
+}
+
+.miao {
+  font-size: 0.32rem;
+  color: #666666;
+}
+
+.color {
+  font-size: 0.373333rem;
+  color: #666666;
+}
+
+/*服务流程*/
+
+.fuwu {
+  padding: 0 0.48rem;
+}
+
+.fuwu .step .step-desc {
+  display: inline-block;
+  vertical-align: top;
+  width: 4.48rem;
+  height: 4.213333rem;
+  text-align: left;
+}
+
+.fuwu .step .step-desc.va {
+  padding-top: 0.8rem;
+}
+
+.fuwu .step .step-desc .step1 {
+  font-size: 0.426667rem;
+  color: #CD262E;
+  letter-spacing: 0;
+  text-align: left;
+  padding-bottom: 0.573333rem;
+}
+
+.fuwu .step img {
+  display: inline-block;
+  width: 4.08rem;
+  height: 4.213333rem;
+  border-radius: 50%;
+}
+
+/*对比图*/
+
+.duibi {
+  padding: 0 0.4rem;
+}
+
+.duibi img {
+  width: 9.2rem;
+  margin-top: 0.533333rem;
+  margin-bottom: 0.533333rem;
+}
+
+.clbz img {
+  width: 100%;
+  margin-top: 0.533333rem;
+  margin-bottom: 0.533333rem;
+}
+
+/*工具展示*/
+
+.mt-50 {
+  margin-top: 0.666667rem;
+}
+
+.clr {
+  clear: both;
+}
+
+.mt-20 {
+  margin-top: 0.266667rem;
+}
+
+.text {
+  display: block;
+  margin: 0 auto;
+  width: 8.24rem;
+  height: 2.64rem;
+  border-radius: 0.133333rem;
+  border: 0.013333rem solid #999;
+  padding: 0.2rem 0.266667rem;
+  box-sizing: border-box;
+  font-size: 0.32rem;
+  color: #999;
+  line-height: 0.453333rem;
+}
+
+.img-box {
+  width: 100%;
+}
+
+.img-box>img {
+  height: 100%;
+  width: 100%;
+}
+
+.red-text {
+  text-align: center;
+  color: #D23F45;
+  font-size: 0.32rem;
+}
+
+.hr {
+  width: 100%;
+  height: 0.013333rem;
+  background-color: #DDDDDE;
+}
+
+.cent-txt {
+  text-align: center;
+}
+
+.dxsy {
+  color: #666;
+  font-size: 0.32rem;
+}
+
+.img-float {
+  overflow: hidden;
+}
+
+.img-box.img-float>img {
+  float: left;
+  margin: 0.133333rem;
+  box-sizing: border-box;
+  width: 4.453333rem;
+}
+
+.txt-left {
+  color: #999;
+  font-size: 0.32rem;
+  text-indent: 0.16rem;
+}
+
+.text-50 {
+  width: 50%;
+  text-align: center;
+  float: left;
+  color: #666;
+  font-size: 0.32rem;
+}
+
+.text-50 .w-50 {
+  display: block;
+  width: 1.6rem;
+  margin: 0 auto;
+  line-height: 0.466667rem;
+}
+
+div.bg-red {
+  background-color: #CD262E;
+}
+
+.color-red {
+  color: #CD262E;
+}
+
+.color-fff {
+  color: #fff;
+}
+
+body span.size-28 {
+  font-size: 0.373333rem;
+}
+
+.box-radius-5 {
+  border-radius: 0.133333rem;
+  width: 2rem;
+  height: 1.28rem;
+  border: 0.013333rem solid  #CD262E;
+}
+
+.box {
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.box .block {
+  display: inline-block;
+  height: 1.28rem;
+  width: 2rem;
+  margin: 0 0.266667rem;
+  border-radius: 0.133333rem;
+  padding: 0.133333rem 0.133333rem;
+  border: 0.013333rem solid #CD262E;
+  text-align: left;
+}
+
+.box .block .line-1 {
+  font-size: 0.533333rem;
+  line-height: 0.746667rem;
+  text-indent: 0.266667rem;
+}
+
+.box .block .line-2 {
+  font-size: 0.373333rem;
+  line-height: 0.533333rem;
+  text-indent: 0.133333rem;
+}
+
+.txt-gray {
+  color: #999;
+  font-size: 0.32rem;
+  line-height: 0.453333rem;
+}
+
+.w-600 {
+  width: 8rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.fwbz img {
+  width: 100%;
+  margin-top: 0.533333rem;
+  margin-bottom: 0.533333rem;
+}
+
+.fwbzh {
+  margin-top: 0.533333rem;
+}

@@ -1,0 +1,102 @@
+/*banner区域开始*/
+
+.detail-banner .banner {
+  background-image: url('img/czmf-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*标题头部位置调整*/
+
+.main-content .fwgs {
+  margin-top: 0.533333rem;
+  margin-bottom: 0.533333rem;
+}
+
+.main-content .fwfw {
+  margin-bottom: 0.533333rem;
+}
+
+.main-content .fwbz {
+  margin-bottom: 0.533333rem;
+}
+
+/*服务概述（1）开始 */
+
+.service-desc {
+  width: 100%;
+  height: 4.666667rem;
+}
+
+.service-desc .fwgs-content {
+  width: 8.24rem;
+  height: 3.266667rem;
+  border: 0.013333rem solid #999;
+  border-radius: 0.066667rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0.266667rem 0.4rem;
+}
+
+.service-desc .fwgs-content p {
+  font-size: 0.32rem;
+  line-height: 0.453333rem;
+  color: #999;
+}
+
+/*服务范围（2）开始*/
+
+.service-area {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 0.4rem;
+}
+
+.service-area .service-area-banner {
+  width: 100%;
+}
+
+.service-area .service-area-banner img {
+  width: 100%;
+}
+
+.service-area .ang-item {
+  width: 3.466667rem;
+  margin-left: 3.333333rem;
+  margin-bottom: 0.533333rem;
+}
+
+.service-area .service-area-pic {
+  width: 100%;
+  overflow: hidden;
+}
+
+.service-area .service-area-pic img {
+  display: block;
+  float: left;
+  width: 2.8rem;
+  border-radius: 50%;
+}
+
+.service-area .service-area-pic img:nth-child(2) {
+  margin-left: 0.266667rem;
+}
+
+.service-area .service-area-pic img:nth-child(3) {
+  margin-left: 0.266667rem;
+}
+
+.service-area .p-top {
+  display: block;
+  font-size: 0.32rem;
+  line-height: 0.453333rem;
+  color: #999;
+}
+
+.service-area .p-top-one {
+  margin-top: 0.266667rem;
+}
+
+.service-area .p-top-two {
+  margin-top: 0.133333rem;
+}

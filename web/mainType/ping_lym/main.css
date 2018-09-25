@@ -1,0 +1,254 @@
+body {
+  background-color: #F2F4F5;
+}
+
+.header {
+  width: 100%;
+  height: 1.146667rem;
+  border-bottom: 0.013333rem solid rgba(221,221,221,.5);
+}
+
+.header .title {
+  float: left;
+  width: 3.2rem;
+  height: 0.693333rem;
+  margin-top: 0.226667rem;
+  margin-left: 3.4rem;
+  border: 0.013333rem solid rgba(221,221,221,.5);
+  border-radius: 0.133333rem;
+}
+
+.header .title .gong {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 100%;
+  font-size: 0.426667rem;
+  color: #FED852;
+  text-align: center;
+  line-height: 0.693333rem;
+}
+
+.header .title .gong.active {
+  background-color: #FED852;
+  color: #fff;
+}
+
+/*
+		header结束,container开始
+*/
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+/*服务名称 & 销量*/
+
+.container .service-item {
+  width: 100%;
+  height: 1.893333rem;
+  background-color: #fff;
+}
+
+.container .service-item .title {
+  float: left;
+  height: 100%;
+  margin-left: 0.4rem;
+}
+
+.container .service-item .title .name {
+  height: 0.586667rem;
+  margin-top: 0.293333rem;
+  font-size: 0.426667rem;
+  color: #333;
+  font-weight: 600;
+  line-height: 0.586667rem;
+}
+
+.container .service-item .title .price {
+  height: 0.586667rem;
+  margin-top: 0.16rem;
+  font-size: 0.426667rem;
+  color: #CD262E;
+  line-height: 0.586667rem;
+}
+
+.container .service-item .sales-volume {
+  float: right;
+  height: 0.453333rem;
+  margin-top: 1.146667rem;
+  margin-right: 0.4rem;
+  font-size: 0.32rem;
+  color: #999;
+}
+
+.container .common {
+  width: 100%;
+  height: 1.066667rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  box-sizing: border-box;
+  border-top: 0.013333rem solid rgba(221,221,221,.5);
+  border-bottom: 0.013333rem solid rgba(221,221,221,.5);
+  background-color: #fff;
+}
+
+.container .common .common-number {
+  height: 0.533333rem;
+  float: left;
+  margin-top: 0.293333rem;
+  font-size: 0.373333rem;
+  color: #666;
+  line-height: 0.533333rem;
+}
+
+.container .common .star {
+  height: 100%;
+  float: right;
+  font-size: 0.373333rem;
+  color: #666;
+  font-weight: 600;
+  line-height: 1.066667rem;
+}
+
+.container .common .star span {
+  display: block;
+  float: left;
+  width: 0.506667rem;
+  height: 0.506667rem;
+  margin-top: 0.253333rem;
+  margin-right: 0.053333rem;
+  background: url('img/star.png') no-repeat;
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
+}
+
+/*客户评论内容*/
+
+.container .common-details {
+  width: 100%;
+  margin-top: 0.24rem;
+}
+
+.container .common-details ul {
+  width: 100%;
+}
+
+.container .common-details .detail {
+  height: 2.186667rem;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 0 0.4rem;
+}
+
+.container .common-details .detail .star-number {
+  height: 0.56rem;
+  margin-top: 0.293333rem;
+}
+
+.container .common-details .detail .star-number .number {
+  height: 100%;
+  float: left;
+}
+
+/*小头像*/
+
+.container .common-details .detail .star-number .number .min-person {
+  display: block;
+  float: left;
+  width: 0.453333rem;
+  height: 100%;
+  margin-right: 0.4rem;
+  background: url('img/min-person.png') no-repeat;
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
+}
+
+/*星星的样式*/
+
+.container .common-details .detail .star-number .number .tiny-spot {
+  display: block;
+  float: left;
+  width: 0.506667rem;
+  height: 0.506667rem;
+  margin-top: 0.026667rem;
+  margin-right: 0.053333rem;
+  background: url('img/star.png') no-repeat;
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
+}
+
+/*评论时间*/
+
+.container .common-details .detail .star-number .time {
+  height: 0.373333rem;
+  float: right;
+  margin-top: 0.08rem;
+  font-size: 0.266667rem;
+  color: #999;
+  line-height: 0.373333rem;
+}
+
+/*评论的内容*/
+
+.container .common-details .detail .text {
+  height: 0.533333rem;
+  margin-top: 0.426667rem;
+  font-size: 0.373333rem;
+  color: #666;
+  line-height: 0.533333rem;
+}
+
+/*
+		container结束,footer开始
+*/
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.306667rem;
+}
+
+.footer .appointment {
+  display: block;
+  float: left;
+  width: 8.4rem;
+  height: 100%;
+  font-size: 0.48rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.306667rem;
+  background-image: linear-gradient(-90deg, #FFB38A 0%, #FED852 100%);
+  border-radius: 0.133333rem;
+}
+
+.footer .customer-service {
+  float: right;
+  width: 1.44rem;
+  height: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 0.013333rem solid #979797;
+  border-radius: 0.133333rem;
+}
+
+.footer .customer-service .bf-icon {
+  display: block;
+  width: 0.56rem;
+  height: 0.56rem;
+  margin: 0.133333rem auto 0;
+  background-position: -0.32rem -5.16rem;
+}
+
+.footer .customer-service p {
+  width: 100%;
+  height: 0.453333rem;
+  font-size: 0.32rem;
+  color: #666;
+  text-align: center;
+  line-height: 0.453333rem;
+  margin-top: 0.08rem;
+}

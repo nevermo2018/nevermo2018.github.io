@@ -1,0 +1,226 @@
+/*banner区域*/
+
+.banner-logo {
+  width: 100%;
+  height: 5.333333rem;
+  overflow: hidden;
+}
+
+.banner-logo .img-box {
+  width: 4.4rem;
+  height: 2.666667rem;
+  margin-top: 1.066667rem;
+  margin: 0 auto;
+}
+
+.banner-logo .img-box img {
+  width: 100%;
+}
+
+/*主内容区域*/
+
+.main-content {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 1.2rem;
+  overflow: hidden;
+}
+
+/*登录区域*/
+
+.main-content .login {
+  width: 100%;
+}
+
+.main-content .login .user {
+  width: 100%;
+  /*height: 60px;*/
+  overflow: hidden;
+}
+
+.main-content .login .pwd {
+  width: 100%;
+  /*height: 60px;*/
+  margin-top: 0.4rem;
+  overflow: hidden;
+}
+
+.main-content .login .bf-icon {
+  display: block;
+  float: left;
+  width: 0.666667rem;
+  height: 0.8rem;
+}
+
+.main-content .login .user .user-icon {
+  background-position: -0.266667rem -7.4rem;
+}
+
+.main-content .login .pwd .pwd-icon {
+  background-position: -1.44rem -7.4rem;
+}
+
+/*公共input块样式*/
+
+.main-content .login .common-input {
+  display: block;
+  float: left;
+  width: 6.4rem;
+  height: 0.733333rem;
+  border-bottom: 0.013333rem solid #C7C7CD;
+  margin-left: 0.533333rem;
+}
+
+.main-content .login .common-input input {
+  display: block;
+  float: left;
+  width: 100%;
+  height: 0.506667rem;
+  margin-top: 0.093333rem;
+  font-size: 0.426667rem;
+  border: none;
+  outline: none;
+}
+
+.main-content .login .common-input input::placeholder {
+  color: #C7C7CD;
+}
+
+/*登录按钮 */
+
+.login-button {
+  width: 100%;
+  height: 1.013333rem;
+  margin-top: 0.8rem;
+  background: linear-gradient(to right,#FBA049, #FED852);
+  border-radius: 0.506667rem;
+}
+
+.login-button a {
+  display: block;
+  width: 100%;
+  height: 0.586667rem;
+  font-size: 0.426667rem;
+  line-height: 0.586667rem;
+  color: #fff;
+  padding: 0.213333rem 0;
+  text-align: center;
+}
+
+/*忘记密码*/
+
+.choose-other {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0.666667rem;
+}
+
+.choose-other a {
+  display: block;
+  font-size: 0.373333rem;
+  line-height: 0.533333rem;
+  color: #C8C8CE;
+}
+
+.choose-other a:nth-child(1) {
+  float: left;
+  color: #FED852;
+}
+
+.choose-other a:nth-child(2) {
+  float: right;
+}
+
+/*分割线or*/
+
+.line-or {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0.533333rem;
+}
+
+.line-or .line {
+  display: block;
+  height: 0.026667rem;
+  background-color: #DDDDDE;
+  margin-top: 0.28rem;
+}
+
+.line-or .line-left {
+  float: left;
+  width: 3.266667rem;
+}
+
+.line-or .line-right {
+  float: right;
+  width: 3.133333rem;
+}
+
+.line-or span {
+  display: block;
+  float: left;
+  font-size: 0.426667rem;
+  line-height: 0.586667rem;
+  color: #979797;
+  margin-left: 0.4rem;
+}
+
+/*三方登录*/
+
+.other-way {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 1.133333rem;
+}
+
+.other-way .other-way-icon {
+  display: block;
+  width: 1.333333rem;
+  height: 1.36rem;
+  background-image: url('../../../../../img/icons/share2x.png');
+  background-repeat: no-repeat;
+  background-size: 4.693333rem 3.093333rem;
+}
+
+.other-way .other-way-icon:nth-child(1) {
+  float: left;
+  background-position: 0 -1.146667rem;
+}
+
+.other-way .other-way-icon:nth-child(2) {
+  float: left;
+  background-position: -1.333333rem -1.146667rem;
+  margin-left: 1.773333rem;
+}
+
+.other-way .other-way-icon:nth-child(3) {
+  float: right;
+  background-position: -2.666667rem -1.146667rem;
+}
+
+/*底部区域*/
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1rem;
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 0.533333rem;
+}
+
+.footer span {
+  font-size: 0.32rem;
+  line-height: 0.453333rem;
+  color: #666;
+}
+
+.footer span a {
+  font-size: 0.32rem;
+  line-height: 0.453333rem;
+  color: #FED852;
+}

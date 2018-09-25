@@ -1,0 +1,182 @@
+.banner {
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.mt-45 {
+  margin-top: 0.6rem;
+}
+
+.pt-45 {
+  padding-top: 0.6rem;
+}
+
+.bt {
+  border-bottom: 0.026667rem solid #DDDDDE;
+}
+
+.title2 {
+  font-size: 0.32rem;
+  color: #666666;
+  text-align: center;
+  margin-top: 0.44rem;
+}
+
+.pl {
+  padding-left: 0.133333rem;
+}
+
+/*温馨提示*/
+
+.icon-block {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background-image: url('img/icon.png');
+  background-repeat: no-repeat;
+  background-size: 7.2rem 1.626667rem;
+}
+
+.icon1 {
+  background-position: 0 0;
+}
+
+.icon2 {
+  background-position: -1.893333rem 0;
+}
+
+.icon3 {
+  background-position: -3.733333rem 0;
+}
+
+.icon4 {
+  background-position: -5.6rem 0;
+}
+
+.wxts .info_item {
+  float: left;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: 0.533333rem 0.293333rem;
+  margin-left: 0.533333rem;
+}
+
+.wxts .info_item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.wxts .info_item p {
+  font-size: 0.32rem;
+  color: #666666;
+  line-height: 0.453333rem;
+  text-align: center;
+}
+
+.wxts .info_item .desc {
+  margin-top: 0.533333rem;
+}
+
+.wxts .tit {
+  text-align: left;
+  font-size: 0.32rem;
+  color: #333333;
+  line-height: 0.453333rem;
+  margin-left: 0.533333rem;
+}
+
+.wxts .tit1 {
+  padding-top: 4rem;
+  padding-right: 0.266667rem;
+}
+
+.wxts .tit2 {
+  margin-bottom: 0.613333rem;
+}
+
+.wxts .info_item .icon1 {
+  /*background-size: 120px 120px;*/
+  /*background-image: url('/img/ri_cbj/icon.png');*/
+}
+
+/*服务流程*/
+
+.fuwu {
+  padding: 0 0.48rem;
+}
+
+.fuwu .step .step-desc {
+  display: inline-block;
+  vertical-align: top;
+  width: 4.48rem;
+  height: 4.213333rem;
+  text-align: left;
+}
+
+.fuwu .step .step-desc.va {
+  padding-top: 0.8rem;
+}
+
+.fuwu .step .step-desc .step1 {
+  font-size: 0.426667rem;
+  color: #CD262E;
+  letter-spacing: 0;
+  text-align: left;
+  padding-bottom: 0.573333rem;
+}
+
+.fuwu .step img {
+  display: inline-block;
+  width: 4.08rem;
+  height: 4.213333rem;
+  border-radius: 50%;
+}
+
+/*家庭保洁*/
+
+/*头部取消padding*/
+
+.jtbj .detail-title-block.jtbj {
+  margin-left: 0.213333rem;
+}
+
+.jtbj {
+  /*padding: 0 40px;*/
+  overflow: hidden;
+  margin-bottom: 0.533333rem;
+}
+
+.jtbj .bj-item {
+  float: left;
+  padding: 0 0.533333rem;
+}
+
+.jtbj .bj-item img {
+  display: inline-block;
+  width: 3.92rem;
+  height: 3.893333rem;
+}
+
+.jtbj .bj-item p {
+  text-align: center;
+}
+
+.item4,
+.item2 {
+  margin-bottom: 0.533333rem;
+}
+
+.fwbz img {
+  width: 100%;
+  margin-top: 0.533333rem;
+  margin-bottom: 0.533333rem;
+}
+
+.fwbzh {
+  margin-top: 0.533333rem;
+}

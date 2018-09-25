@@ -1,0 +1,79 @@
+.detail-banner>.banner {
+  background-image: url('img/yyj-banner.jpg');
+  background-position: left;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.container>.s1 {
+  margin-top: 0.613333rem;
+}
+
+.container>.s1,
+.container>.s2,
+.container>.s3,
+.container>.s4,
+.container>.fwbz-block,
+.container>.fwbz2-block {
+  width: 100%;
+  padding-bottom: 0.613333rem;
+  margin-bottom: 0.613333rem;
+  border-bottom: 0.026667rem solid #DDDDDE;
+  overflow: hidden;
+}
+
+.s2 .img-item {
+  width: 100%;
+  /*margin-top: 46px;*/
+  padding-top: 0.666667rem;
+  overflow: hidden;
+}
+
+.s2 .img-item .img-block {
+  width: 33%;
+  float: left;
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+}
+
+.s2 .img-item .img-block>img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.s2 .img-item .img-block>p {
+  text-align: center;
+}
+
+.s2 .text2 {
+  font-size: 0.32rem;
+  line-height: 0.453333rem;
+  padding: 0 0.48rem;
+  margin-top: 0.213333rem;
+}
+
+.s3 .fwlc-img1,
+.s4 .fwlc-img1 {
+  width: 9.2rem;
+  height: auto;
+  margin-left: 0.4rem;
+  margin-top: 0.613333rem;
+}
+
+.s4 .fwdb-text {
+  font-size: 0.373333rem;
+  line-height: 0.533333rem;
+  color: #B6041A;
+  text-align: center;
+  margin-top: 0.213333rem;
+}
+
+.container .ext {
+  margin-top: 0.4rem;
+  margin-left: 0.666667rem;
+}
+
+.fwbz2-block .detail-fwbz-block {
+  margin-top: 0.613333rem;
+}

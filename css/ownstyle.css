@@ -1,0 +1,719 @@
+.header {
+  width: 100%;
+  height: 1.2rem;
+}
+
+/*地址======*/
+
+.header .address {
+  float: left;
+  width: 1.2rem;
+  height: 0.586667rem;
+  margin-top: 0.266667rem;
+  margin-left: 0.453333rem;
+  font-size: 0.426667rem;
+  line-height: 0.586667rem;
+}
+
+.header .address span {
+  display: block;
+  float: right;
+  width: 0.266667rem;
+  height: 0.266667rem;
+  margin-top: 0.173333rem;
+  background-position: -2.8rem -5.333333rem;
+}
+
+/*logo=====*/
+
+.header	.logo {
+  float: left;
+  width: 1.893333rem;
+  height: 0.88rem;
+  margin-top: 0.08rem;
+  margin-left: 2.506667rem;
+  font-size: 0.64rem;
+  color: #FED852;
+  line-height: 0.88rem;
+}
+
+/*搜索=====*/
+
+.header	.search {
+  float: right;
+  width: 0.506667rem;
+  height: 0.506667rem;
+  margin-top: 0.293333rem;
+  margin-right: 0.373333rem;
+  background-position: -3.853333rem -5.16rem;
+}
+
+/*
+    =========header结束,container开始========
+*/
+
+.container {
+  width: 100%;
+}
+
+/*banner轮播======*/
+
+.banner {
+  width: 100%;
+  height: 4.293333rem;
+}
+
+.banner .swiper-slide:first-child {
+  width: 100%;
+  height: 100%;
+  background: url('../img/mainimg/banner.jpg') no-repeat center;
+  background-size: auto 100%;
+}
+
+/*主营业务轮播=====*/
+
+.bussiness {
+  width: 100%;
+  height: 4.453333rem;
+}
+
+/*swiper-container是banner和business公用的*/
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  background-color: orange;
+}
+
+.swiper-container .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.bussiness .swiper-container {
+  background-color: #fff;
+}
+
+.bussiness .swiper-container .swiper-slide .icon-list {
+  display: block;
+  width: 100%;
+  height: 1.946667rem;
+}
+
+.bussiness .icon-list .icon-detail {
+  display: block;
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+
+/*icon背景色=====*/
+
+.bussiness .icon-list .icon-detail a {
+  display: block;
+  width: 1.173333rem;
+  height: 1.173333rem;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+.bussiness .icon-list .icon-1 a {
+  background: -webkit-linear-gradient(#F4A77A, #EB6B2B);
+  background: -o-linear-gradient(#F4A77A, #EB6B2B);
+  background: -moz-linear-gradient(#F4A77A, #EB6B2B);
+  background: linear-gradient(to top,#F4A77A, #EB6B2B);
+}
+
+.bussiness .icon-list .icon-2 a {
+  background: -webkit-linear-gradient(#F380BA, #D74B8B);
+  background: -o-linear-gradient(#F380BA, #D74B8B);
+  background: -moz-linear-gradient(#F380BA, #D74B8B);
+  background: linear-gradient(to top,#F380BA, #D74B8B);
+}
+
+.bussiness .icon-list .icon-3 a {
+  background: -webkit-linear-gradient(#FB9985, #E55239);
+  background: -o-linear-gradient(#FB9985, #E55239);
+  background: -moz-linear-gradient(#FB9985, #E55239);
+  background: linear-gradient(to top,#FB9985, #E55239);
+}
+
+.bussiness .icon-list .icon-4 a {
+  background: -webkit-linear-gradient(#C3D46D, #A1C021);
+  background: -o-linear-gradient(#C3D46D, #A1C021);
+  background: -moz-linear-gradient(#C3D46D, #A1C021);
+  background: linear-gradient(to top,#C3D46D, #A1C021);
+}
+
+.bussiness .icon-list .icon-5 a {
+  background: -webkit-linear-gradient(#F2C695, #ED933E);
+  background: -o-linear-gradient(#F2C695, #ED933E);
+  background: -moz-linear-gradient(#F2C695, #ED933E);
+  background: linear-gradient(to top,#F2C695, #ED933E);
+}
+
+.bussiness .icon-list .icon-6 a {
+  background: -webkit-linear-gradient(#A4B8F4, #657ED8);
+  background: -o-linear-gradient(#A4B8F4, #657ED8);
+  background: -moz-linear-gradient(#A4B8F4, #657ED8);
+  background: linear-gradient(to top,#A4B8F4, #657ED8);
+}
+
+.bussiness .icon-list .icon-7 a {
+  background: -webkit-linear-gradient(#F2C695, #ED933E);
+  background: -o-linear-gradient(#F2C695, #ED933E);
+  background: -moz-linear-gradient(#F2C695, #ED933E);
+  background: linear-gradient(to top,#F2C695, #ED933E);
+}
+
+.bussiness .icon-list .icon-8 a {
+  background: -webkit-linear-gradient(#C3E582, #86B935);
+  background: -o-linear-gradient(#C3E582, #86B935);
+  background: -moz-linear-gradient(#C3E582, #86B935);
+  background: linear-gradient(to top,#C3E582, #86B935);
+}
+
+.bussiness .icon-list .icon-9 a {
+  background: -webkit-linear-gradient(#FAA8CC, #E76198);
+  background: -o-linear-gradient(#FAA8CC, #E76198);
+  background: -moz-linear-gradient(#FAA8CC, #E76198);
+  background: linear-gradient(to top,#FAA8CC, #E76198);
+}
+
+.bussiness .icon-list .icon-10 a {
+  background: -webkit-linear-gradient(#BEB8F8, #7C72EF);
+  background: -o-linear-gradient(#BEB8F8, #7C72EF);
+  background: -moz-linear-gradient(#BEB8F8, #7C72EF);
+  background: linear-gradient(to top,#BEB8F8, #7C72EF);
+}
+
+.bussiness .icon-list .icon-11 a {
+  background: -webkit-linear-gradient(#A4B8F4, #657ED8);
+  background: -o-linear-gradient(#A4B8F4, #657ED8);
+  background: -moz-linear-gradient(#A4B8F4, #657ED8);
+  background: linear-gradient(to top,#A4B8F4, #657ED8);
+}
+
+.bussiness .icon-list .icon-12 a {
+  background: -webkit-linear-gradient(#FCCA83, #F79A2F);
+  background: -o-linear-gradient(#FCCA83, #F79A2F);
+  background: -moz-linear-gradient(#FCCA83, #F79A2F);
+  background: linear-gradient(to top,#FCCA83, #F79A2F);
+}
+
+.bussiness .icon-list .icon-13 a {
+  background: -webkit-linear-gradient(#FAA8CC, #E76198);
+  background: -o-linear-gradient(#FAA8CC, #E76198);
+  background: -moz-linear-gradient(#FAA8CC, #E76198);
+  background: linear-gradient(to top,#FAA8CC, #E76198);
+}
+
+.bussiness .icon-list .icon-14 a {
+  background: -webkit-linear-gradient(#BEB8F8, #7C72EF);
+  background: -o-linear-gradient(#BEB8F8, #7C72EF);
+  background: -moz-linear-gradient(#BEB8F8, #7C72EF);
+  background: linear-gradient(to top,#BEB8F8, #7C72EF);
+}
+
+.bussiness .icon-list .icon-15 a {
+  background: -webkit-linear-gradient(#C3E582, #86B935);
+  background: -o-linear-gradient(#C3E582, #86B935);
+  background: -moz-linear-gradient(#C3E582, #86B935);
+  background: linear-gradient(to top,#C3E582, #86B935);
+}
+
+.bussiness .icon-list .icon-16 a {
+  background: -webkit-linear-gradient(#C3D46D, #A1C021);
+  background: -o-linear-gradient(#C3D46D, #A1C021);
+  background: -moz-linear-gradient(#C3D46D, #A1C021);
+  background: linear-gradient(to top,#C3D46D, #A1C021);
+}
+
+.bussiness .icon-list .icon-17 a {
+  background: -webkit-linear-gradient(#FCCA83, #F79A2F);
+  background: -o-linear-gradient(#FCCA83, #F79A2F);
+  background: -moz-linear-gradient(#FCCA83, #F79A2F);
+  background: linear-gradient(to top,#FCCA83, #F79A2F);
+}
+
+.bussiness .icon-list .icon-18 a {
+  background: -webkit-linear-gradient(#F380BA, #D74B8B);
+  background: -o-linear-gradient(#F380BA, #D74B8B);
+  background: -moz-linear-gradient(#F380BA, #D74B8B);
+  background: linear-gradient(to top,#F380BA, #D74B8B);
+}
+
+.bussiness .icon-list .icon-19 a {
+  background: -webkit-linear-gradient(#F4A77A, #EB6B2B);
+  background: -o-linear-gradient(#F4A77A, #EB6B2B);
+  background: -moz-linear-gradient(#F4A77A, #EB6B2B);
+  background: linear-gradient(to top,#F4A77A, #EB6B2B);
+}
+
+.bussiness .icon-list .icon-20 a {
+  background: -webkit-linear-gradient(#FB9985, #E55239);
+  background: -o-linear-gradient(#FB9985, #E55239);
+  background: -moz-linear-gradient(#FB9985, #E55239);
+  background: linear-gradient(to top,#FB9985, #E55239);
+}
+
+/*div里的icon图标========*/
+
+.bussiness .icon-list .icon-detail a span {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.bussiness .icon-list .icon-1 a span {
+  background-position: 0 0;
+}
+
+.bussiness .icon-list .icon-2 a span {
+  background-position: -1.186667rem 0;
+}
+
+.bussiness .icon-list .icon-3 a span {
+  background-position: -2.346667rem 0;
+}
+
+.bussiness .icon-list .icon-4 a span {
+  background-position: -3.533333rem 0;
+}
+
+.bussiness .icon-list .icon-5 a span {
+  background-position: -4.693333rem 0;
+}
+
+.bussiness .icon-list .icon-6 a span {
+  background-position: -5.866667rem 0;
+}
+
+.bussiness .icon-list .icon-7 a span {
+  background-position: -7.04rem 0;
+}
+
+.bussiness .icon-list .icon-8 a span {
+  background-position: -8.213333rem 0;
+}
+
+.bussiness .icon-list .icon-9 a span {
+  background-position: -9.373333rem 0;
+}
+
+.bussiness .icon-list .icon-10 a span {
+  background-position: -10.573333rem 0;
+}
+
+.bussiness .icon-list .icon-11 a span {
+  background-position: 0 -1.16rem;
+}
+
+.bussiness .icon-list .icon-12 a span {
+  background-position: -1.173333rem -1.2rem;
+}
+
+.bussiness .icon-list .icon-13 a span {
+  background-position: -2.346667rem -1.2rem;
+}
+
+.bussiness .icon-list .icon-14 a span {
+  background-position: -3.506667rem -1.186667rem;
+}
+
+.bussiness .icon-list .icon-15 a span {
+  background-position: -4.666667rem -1.2rem;
+}
+
+.bussiness .icon-list .icon-16 a span {
+  background-position: -5.866667rem -1.2rem;
+}
+
+.bussiness .icon-list .icon-17 a span {
+  background-position: -7.053333rem -1.2rem;
+}
+
+.bussiness .icon-list .icon-18 a span {
+  background-position: -8.2rem -1.2rem;
+}
+
+.bussiness .icon-list .icon-19 a span {
+  background-position: -9.373333rem -1.186667rem;
+}
+
+.bussiness .icon-list .icon-20 a span {
+  background-position: -10.533333rem -1.2rem;
+}
+
+/*图标下的文字=======*/
+
+.bussiness .icon-list .icon-detail .text {
+  display: block;
+  height: 0.453333rem;
+  margin-top: 0.133333rem;
+  font-size: 0.32rem;
+  color: #666666;
+  text-align: center;
+  line-height: 0.453333rem;
+}
+
+/*上边距*/
+
+.bussiness .swiper-container .swiper-slide .icon-list-top {
+  margin-top: 0.373333rem;
+}
+
+/*下边距*/
+
+.bussiness .swiper-container .swiper-slide .icon-list-bottom {
+  margin-top: 0.186667rem;
+}
+
+/*热门精选开始========*/
+
+.hot-picks {
+  margin-top: 0.266667rem;
+  width: 100%;
+  height: 5.386667rem;
+  background-color: #fff;
+}
+
+/*===++++++===这是公共标题====+++++++===*/
+
+.container .title {
+  width: 100%;
+  height: 1.173333rem;
+  text-align: center;
+  line-height: 0.8rem;
+}
+
+.hot-picks .title {
+  margin: 0.266667rem auto;
+}
+
+/*标题里的文字*/
+
+.container .title .text {
+  position: relative;
+  height: 0.586667rem;
+  font-size: 0.426667rem;
+  color: #666666;
+  overflow: hidden;
+}
+
+/*标题里的线*/
+
+.container .title .text::before,
+.container .title .text::after {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  content: '';
+  width: 0.933333rem;
+  height: 0.026667rem;
+  opacity: .5;
+}
+
+.container .title .text::before {
+  margin-right: 0.24rem;
+  right: 100%;
+  background: linear-gradient(to left,#444444,#565656 52%,#DDDDDD);
+}
+
+.container .title .text::after {
+  margin-left: 0.24rem;
+  background: linear-gradient(to right,#444444,#565656 52%,#DDDDDD);
+}
+
+/*将四个小块分为两边，两边分出上下*/
+
+.hot-picks .left {
+  width: 4.853333rem;
+  float: left;
+}
+
+.hot-picks .right {
+  width: 4.853333rem;
+  float: right;
+}
+
+.hot-picks .top,
+.hot-picks .bottom {
+  position: relative;
+  display: block;
+  background: #F2F4F5;
+  margin-bottom: 0.293333rem;
+  overflow: hidden;
+}
+
+.hot-picks .left .top {
+  width: 100%;
+  height: 1.813333rem;
+}
+
+.hot-picks .introduce {
+  width: 2.72rem;
+  height: 0.986667rem;
+  float: left;
+  margin: 0.426667rem 0 0.4rem 0.4rem;
+}
+
+.hot-picks .introduce p:first-child {
+  width: 100%;
+  height: 0.533333rem;
+  font-size: 0.373333rem;
+  color: #666666;
+  line-height: 0.533333rem;
+}
+
+.hot-picks .introduce p:last-child {
+  width: 100%;
+  height: 0.373333rem;
+  margin-top: 0.08rem;
+  font-size: 0.266667rem;
+  color: #999999;
+  line-height: 0.373333rem;
+}
+
+/*右边的图片，大小有问题？未解决*/
+
+.hot-picks .picture {
+  width: 1.333333rem;
+  height: 1.333333rem;
+  float: left;
+  margin-top: 0.24rem;
+  border-radius: 100%;
+}
+
+.hot-picks .left .top .picture {
+  background: url('../img/mainimg/img1.jpg') no-repeat;
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
+}
+
+.hot-picks .left .bottom .picture {
+  background: url('../img/mainimg/img3.jpg') no-repeat center;
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
+}
+
+.hot-picks .right .top .picture {
+  background: url('../img/mainimg/img2.jpg') no-repeat center;
+  -webkit-background-size: 100% auto;
+  background-size: auto 100%;
+}
+
+.hot-picks .right .bottom .picture {
+  background: url('../img/mainimg/img4.jpg') no-repeat center;
+  -webkit-background-size: 100% auto;
+  background-size: auto 100%;
+}
+
+.hot-picks .hot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 0.946667rem;
+  height: 0.946667rem;
+  transform: rotate(-45deg) translateY(-0.666667rem);
+  background-color: #FED852;
+  font-size: 0.133333rem;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 1.533333rem;
+}
+
+/*家庭保洁开始========*/
+
+.appointment {
+  width: 100%;
+  height: 5.36rem;
+  border-bottom: 0.026667rem solid #DDDDDE;
+  overflow: hidden;
+  padding-bottom: 0.373333rem;
+}
+
+.appointment .appoint-content {
+  width: 100%;
+  height: 4.106667rem;
+  background: linear-gradient(to right, rgba(216,216,216,.5) 4%,#F2F4F5 20%,#F2F4F5 42%, rgba(216,216,216,.5) 100%);
+}
+
+/*左边的人像图*/
+
+.appointment .appoint-content .human-img {
+  width: 4.613333rem;
+  height: 100%;
+  float: left;
+  margin-left: 0.4rem;
+}
+
+.appointment .appoint-content .human-img img {
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/*右边的文字*/
+
+.appointment .appoint-content .text {
+  width: 4.133333rem;
+  float: left;
+  margin-top: 0.986667rem;
+  margin-left: 0.24rem;
+}
+
+.appointment .appoint-content .text p {
+  width: 100%;
+  height: 0.533333rem;
+  font-size: 0.373333rem;
+  color: #999999;
+  text-align: center;
+  line-height: 0.533333rem;
+}
+
+/*点击预约的按钮*/
+
+.appointment .appoint-content .text .appoint-now {
+  width: 100%;
+  height: 1.066667rem;
+  margin-top: 0.4rem;
+  background-image: linear-gradient(-90deg, #FAE462 0%, #FA9E51 97%);
+  border-radius: 1.333333rem;
+}
+
+.appointment .appoint-content .text .appoint-now a {
+  display: block;
+  height: 100%;
+  font-size: 0.426667rem;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 1.066667rem;
+}
+
+/*礼品卡专区开始========*/
+
+.gift-cards {
+  width: 100%;
+  overflow: hidden;
+}
+
+.gift-cards .card-swiper {
+  width: 100%;
+  height: 4.773333rem;
+  overflow: hidden;
+}
+
+.gift-cards .card-swiper .swiper-slide {
+  width: 8.506667rem;
+  height: 4.48rem;
+  margin-right: 0.266667rem;
+  background: url('../img/mainimg/cards.jpg') center no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+
+/*更多服务开始========*/
+
+.more-serve {
+  width: 100%;
+  height: 1.2rem;
+  background-color: #F2F4F5;
+  font-size: 0.373333rem;
+  color: #999999;
+  text-align: center;
+  line-height: 1.2rem;
+  overflow: hidden;
+}
+
+.more-serve span {
+  display: inline-block;
+  width: 0.266667rem;
+  height: 0.266667rem;
+  background-position: -8.733333rem -5.306667rem;
+}
+
+/*
+    ==========container结束，footer开始==========
+*/
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.306667rem;
+  border-top: 0.026667rem solid #DDDDDE;
+  background-color: #F2F4F5;
+}
+
+.footer ul {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.footer ul li {
+  display: block;
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+
+.footer ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.footer ul li .main-icon {
+  display: block;
+  width: 0.733333rem;
+  height: 0.733333rem;
+  margin: 0.2rem auto 0.04rem;
+  background-position: -4.933333rem -2.586667rem;
+}
+
+.footer ul li:nth-child(2) .main-icon {
+  background-position: -6.133333rem -2.586667rem;
+}
+
+.footer ul li:nth-child(3) .main-icon {
+  background-position: -7.293333rem -2.586667rem;
+}
+
+.footer ul li:last-child .main-icon {
+  width: 0.8rem;
+  background-position: -8.44rem -2.586667rem;
+}
+
+.footer ul li .text {
+  display: block;
+  width: 100%;
+  height: 0.373333rem;
+  font-size: 0.266667rem;
+  color: #333333;
+  text-align: center;
+  text-indent: -0.08rem;
+  line-height: 0.373333rem;
+}
+
+/*点击li切换icon=======*/
+
+.footer ul li:first-child.active .main-icon {
+  background-position: -0.266667rem -2.586667rem;
+}
+
+.footer ul li:nth-child(2).active .main-icon {
+  background-position: -1.453333rem -2.586667rem;
+}
+
+.footer ul li:nth-child(3).active .main-icon {
+  background-position: -2.573333rem -2.586667rem;
+}
+
+.footer ul li:last-child.active .main-icon {
+  background-position: -3.733333rem -2.586667rem;
+}

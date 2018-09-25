@@ -1,0 +1,320 @@
+/*banner区域开始*/
+
+.detail-banner .banner {
+  background-image: url('img/scdb-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*标题头部图标样式*/
+
+.detail-title-block.gjzs .bf-icon {
+  background-position: -7.333333rem -11rem;
+}
+
+/*标题头部位置调整*/
+
+.main-content .fwgs {
+  margin-bottom: 0.533333rem;
+}
+
+.main-content .fwlc {
+  margin-bottom: 0.533333rem;
+}
+
+.main-content .gjzs {
+  margin-bottom: 0.533333rem;
+}
+
+/*图片、文字描述及宣传语部分(1)开始*/
+
+.clean {
+  width: 100%;
+  height: 5.733333rem;
+  box-sizing: border-box;
+  padding: 0.533333rem 0.333333rem 0 0.4rem;
+}
+
+.clean .item {
+  width: 100%;
+  height: 4rem;
+}
+
+.clean .item .item-block {
+  display: block;
+  float: left;
+  width: 2.933333rem;
+  height: 100%;
+}
+
+.clean .item .item-block img {
+  width: 100%;
+  height: 2.933333rem;
+}
+
+.clean .item .item-block p {
+  color: #666;
+  font-size: 0.32rem;
+  line-height: 0.453333rem;
+  text-align: center;
+  margin-top: 0.066667rem;
+}
+
+.clean .item .item-two,
+.item-three {
+  margin-left: 0.2rem;
+}
+
+.clean .ads {
+  width: 100%;
+  height: 0.933333rem;
+}
+
+.clean .ads p {
+  text-align: center;
+}
+
+.clean .ads p:nth-child(1) {
+  color: #666;
+  margin-bottom: 0.2rem;
+}
+
+/*服务概述（2）开始 */
+
+.service-desc {
+  width: 100%;
+}
+
+.service-desc .fwgs-content {
+  width: 8.24rem;
+  border: 0.013333rem solid #999;
+  border-radius: 0.066667rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0.266667rem 0.4rem;
+}
+
+.service-desc .fwgs-content p {
+  font-size: 0.32rem;
+  line-height: 0.453333rem;
+  color: #999;
+}
+
+/*服务流程（3）开始*/
+
+.service-pro {
+  width: 100%;
+}
+
+.service-pro .fwlc-content {
+  width: 100%;
+}
+
+.service-pro .fwlc-content .common-block {
+  width: 100%;
+  height: 4.8rem;
+  box-sizing: border-box;
+  padding: 0 0.533333rem;
+  overflow: hidden;
+}
+
+.service-pro .fwlc-content .common-block .block-text {
+  display: block;
+  float: left;
+  width: 4.533333rem;
+  height: 100%;
+}
+
+.service-pro .fwlc-content .common-block .block-text p:nth-child(1) {
+  font-size: 0.426667rem;
+  line-height: 0.586667rem;
+  color: #CD262E;
+}
+
+.service-pro .fwlc-content .common-block .block-text p:nth-child(2) {
+  font-size: 0.373333rem;
+  line-height: 0.533333rem;
+  color: #999;
+  margin-top: 0.4rem;
+}
+
+.service-pro .fwlc-content .common-block .block-img {
+  display: block;
+  float: left;
+  width: 4.213333rem;
+  height: 4.213333rem;
+  border-radius: 50%;
+}
+
+.service-pro .fwlc-content .common-block .block-text-one {
+  margin-top: 0.933333rem;
+}
+
+.service-pro .fwlc-content .common-block .block-text-two {
+  margin-top: 0.266667rem;
+}
+
+.service-pro .fwlc-content .common-block .block-text-three {
+  margin-top: 0.266667rem;
+}
+
+.service-pro .fwlc-content .common-block .block-text-four {
+  margin-top: 0.933333rem;
+}
+
+.service-pro .fwlc-content .common-block .block-text-five {
+  margin-top: 0.666667rem;
+}
+
+.service-pro .fwlc-content .common-block .block-img-one {
+  background: url('img/scdbmf-item001.jpg') no-repeat center;
+  background-size: cover;
+  margin-left: 0.133333rem;
+}
+
+.service-pro .fwlc-content .common-block .block-img-two {
+  background: url('img/scdb-item02.png') no-repeat center;
+  background-size: cover;
+  margin-right: 0.133333rem;
+}
+
+.service-pro .fwlc-content .common-block .block-img-three {
+  background: url('img/scdb-item03.png') no-repeat center;
+  background-size: cover;
+  margin-left: 0.133333rem;
+}
+
+.service-pro .fwlc-content .common-block .block-img-four {
+  background: url('img/scdb-item04.png') no-repeat center;
+  background-size: cover;
+  margin-right: 0.133333rem;
+}
+
+.service-pro .fwlc-content .common-block .block-img-five {
+  background: url('img/scdbmf-item001.jpg') no-repeat center;
+  background-size: cover;
+  margin-left: 0.133333rem;
+}
+
+/*前后对比图*/
+
+.than-pic {
+  width: 100%;
+}
+
+.than-pic p {
+  font-size: 0.373333rem;
+  line-height: 0.533333rem;
+  color: #666;
+  text-align: center;
+}
+
+.than-pic img {
+  width: 100%;
+  margin-top: 0.4rem;
+}
+
+/*工具展示（4）*/
+
+.tools-show {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.tools-show .tools-content {
+  width: 100%;
+  /*padding: 0 50px;*/
+}
+
+.tools-show .tools-content .tools-img {
+  overflow: hidden;
+}
+
+.tools-show .tools-content .tools-img img {
+  width: 100%;
+}
+
+.tools-show .tools-content .tools-img:nth-child(2) {
+  margin-top: 0.4rem;
+}
+
+.tools-show .tools-content .tools-img span {
+  display: block;
+  float: left;
+  width: 4.933333rem;
+  font-size: 0.32rem;
+  line-height: 0.453333rem;
+  text-align: center;
+  color: #666;
+  margin-top: 0.266667rem;
+}
+
+/*公共样式-三大优势模块*/
+
+.tools-show .service-adv {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 0.933333rem;
+}
+
+.tools-show .service-adv .block {
+  display: inline-block;
+  width: 2rem;
+  height: 1.333333rem;
+  border-radius: 0.04rem;
+  box-sizing: border-box;
+  margin-top: 0.533333rem;
+  margin-bottom: 0.4rem;
+}
+
+.tools-show .service-adv .block p span {
+  font-size: 0.373333rem;
+  line-height: 0.533333rem;
+}
+
+.tools-show .service-adv .block-one {
+  border: 0.013333rem solid #CD262E;
+  padding-left: 0.04rem;
+  margin-left: 0.133333rem;
+}
+
+.tools-show .service-adv .block-one p,
+.block-three p {
+  color: #CD262E;
+}
+
+.tools-show .service-adv .block-two {
+  background-color: #CD262E;
+  border: 0.013333rem solid #CD262E;
+  margin-left: 0.666667rem;
+  padding: 0 0.2rem;
+}
+
+.tools-show .service-adv .block-three {
+  margin-left: 0.666667rem;
+  padding: 0 0.2rem;
+  border: 0.013333rem solid #CD262E;
+}
+
+.tools-show .service-adv .block-two p {
+  color: #fff;
+}
+
+.tools-show .service-adv .block p:nth-child(1) {
+  font-size: 0.533333rem;
+  line-height: 0.746667rem;
+}
+
+.tools-show .service-adv .block p:nth-child(2) {
+  font-size: 0.373333rem;
+  line-height: 0.533333rem;
+}
+
+.tools-show .note p:nth-child(1) {
+  color: #999;
+}
+
+.tools-show .note p:nth-child(2) {
+  color: #999;
+  text-indent: 0.64rem;
+}

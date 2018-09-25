@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../../../css/reset.css">
+  <link rel="stylesheet" href="../../../css/normalize.css">
+  <link rel="stylesheet" href="../../../css/style.css">
+  <link rel="stylesheet" href="main.css">
+  <title>我的礼品卡</title>
+</head>
+<body>
+	<!-- =============页面头部============ -->
+  <!-- <div class="bf-hastop"></div> -->
+	<div class="header">
+    <div class="detail-top">
+      <a href="javascript:;" class="goback">
+        <span class="bf-icon"></span>
+      </a>
+      我的礼品卡
+    </div>
+	</div>
+	<!-- =============页面头部结束，container开始============ -->
+	<div class="container">
+    <ul>
+      <li class="gift-card-detail">
+        <!-- 礼品卡样子 -->
+        <div class="appearance"></div>
+        <div class="introduce">
+          <div class="title">
+            <p class="name"><span>福卡</span>（含4小时保洁）</p>
+            <p class="price">￥200/张</p>
+          </div>
+          <div class="if-use">使用</div>
+        </div>
+      </li>
+    </ul>
+	</div>
+
+  <script src="../../../lib/jquery.min.js" charset="utf-8"></script>
+  <script src="../../../js/common.js" charset="utf-8"></script>
+  <script src="main.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    // loading加载动画
+    bufan.initLoading({
+      dir:'/img/mainimg',
+      imgs:['cards.png']
+    })
+  </script>
+</body>
+</html>
